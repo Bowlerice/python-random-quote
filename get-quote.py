@@ -9,13 +9,13 @@ def primordial():
   f.close()
 
   last = 27
-  rnd1 = random.randint(0, last)
-  rnd2 = random.randint(0, last)
-    while rnd2 = rnd1
-        rnd2 = random.randint(0, last)
+  x = random.randint(0, last)
+  y = random.randint(0, last)
+  while x == y:
+    y = random.randint(0, last)
 
-  print(quotes[rnd1])
-  print(quotes[rnd2])
+  print(quotes[x])
+  print(quotes[y])
 
 if __name__== "__main__":
   primordial()
