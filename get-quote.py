@@ -14,7 +14,7 @@ def primordial():
   while x == y:
     y = random.randint(0, last)
 
-  print(quotes[x])
+  print(quotes[x], end="")
   print(quotes[y])
 
 if __name__== "__main__":
